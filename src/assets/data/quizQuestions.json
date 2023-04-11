@@ -1,0 +1,57 @@
+{
+    "title":"Você será Front-end ou Back-end?",
+    "questions":[
+      {
+        "id":1,
+        "question": "Qual Tecnologia deseja estudar?",
+        "options":[
+          {"id": 1, "name":"Javascript", "alias":"A"},
+          {"id": 2, "name":"Java", "alias":"B"},
+          {"id": 3, "name":"PHP", "alias":"A"},
+          {"id": 4, "name":"Python", "alias":"B"},
+          {"id": 5, "name":"C", "alias":"B"},
+          {"id": 6, "name":"Typescript", "alias":"A"}
+        ]
+      },
+      {
+        "id":2,
+        "question": "Qual a finalidade?",
+        "options":[
+          {"id": 1, "name":"Desenvolvimento Web", "alias":"A"},
+          {"id": 2, "name":"Servidor", "alias":"B"},
+          {"id": 3, "name":"Dados", "alias":"B"},
+          {"id": 3, "name":"Usuário ", "alias":"A"}
+        ]
+      },
+      {
+        "id":3,
+        "question": "Qual das opções você prefere?",
+        "options":[
+          {"id": 1, "name":"Spring", "alias":"B"},
+          {"id": 2, "name":"Angular", "alias":"A"},
+          {"id": 3, "name":"React", "alias":"A"},
+          {"id": 4, "name":"Hibernate", "alias":"B"}
+        ]
+      },
+      {
+        "id":4,
+        "question": "Qual o seu maior foco?",
+        "options":[
+          {"id": 1, "name":"Criar autenticações", "alias":"A"},
+          {"id": 2, "name":"Melhorar a experiência do usuário", "alias":"B"}
+        ]
+      },
+      {
+        "id":5,
+        "question": "Você prefere?",
+        "options":[
+          {"id": 1, "name":"Front-end", "alias":"A"},
+          {"id": 2, "name":"Back-end", "alias":"B"}
+        ]
+      }
+    ],
+    "results":{
+      "A": "Você será um desenvolvedor Front-end!",
+      "B": "Você será um desenvolvedor Back-end!"
+    }
+  }
